@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<html>
 <head>
 				<link rel = "stylesheet" type  = "text/css" href = "ipt.css">
+				<script src="ipt.js"></script>
     <title>My Portfolio</title>
     
 </head>
@@ -60,25 +62,6 @@
     <footer class="Footer2"" class = dark-mode-section">
       <p>&copy; 2023 My Portfolio</p>
      </footer>
-    
-    <script>
-    const darkModeToggle = document.getElementById("dark-mode-toggle");
-    const body = document.body;
-    const header = document.querySelector("header");
-    const darkModeIndicator = document.querySelector(".dark-mode-indicator");
-
-    darkModeToggle.addEventListener("change", function () {
-        if (darkModeToggle.checked) {
-            body.classList.add("dark-mode");
-            header.classList.add("dark-mode");
-            darkModeIndicator.textContent = "Dark";
-        } else {
-            body.classList.remove("dark-mode");
-            header.classList.remove("dark-mode");
-            darkModeIndicator.textContent = "Light";
-        }
-    });
-</script>
     
 </body>
 </html>
