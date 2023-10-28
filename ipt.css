@@ -1,0 +1,174 @@
+/* Reset default styles */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6; background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFXcGQPtuqLAsELW2mEA4KNqgIr8tr3ITUlA&usqp=CAU');
+    background-size: cover; 
+}
+
+/* Header styles */
+header {
+    background-color: #86A789;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+
+header img {
+  max-width: 150px;
+}
+
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Main content styles */
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(1, 1, 1, 1);
+    border-radius: 30px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+
+    /* Add these styles for dark mode */
+}
+
+/* Modify the main content background color for dark mode */
+.dark-mode main {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Rest of your existing styles for the main content */
+
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Skill section specific styles */
+#skills {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Add these styles for the image links */
+.Footer1 nav ul li img {
+  max-width: 40px;
+  margin: 5px; /* Adjust the margin as needed */
+}
+
+/* Additional styles for the Footer1 */
+.Footer2 {
+  background-color: #86A789;
+  text-align: center;
+  padding: 10px;
+}
+
+.Footer2 p{
+		color: #fff;
+  font-size: 16px;
+}
+
+.Footer1 ul {
+  list-style: none;
+  padding: 0;
+}
+/* Dark mode styles */
+.dark-mode body {
+    background-color: #333;
+    color: #fff;
+}
+
+header.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode #skills{
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .Footer2{
+    background-color: #333;
+    color: #fff;
+}
+
+/* Change text color to light in dark mode */
+.dark-mode p,
+.dark-mode li,
+.dark-mode h2 {
+    color: #fff;
+}
+
+/* Dark mode switch styles */
+.dark-mode-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.dark-mode-switch label {
+    margin-right: 10px;
+}
+
+/* Style the dark mode indicator span */
+.dark-mode-indicator {
+    color: #fff;
+    margin-left: 5px;
+    font-weight: bold;
+}
