@@ -132,7 +132,7 @@ nav a {
 .box1,
 .box2,
 .box3 {
-    top: 0%;
+    top: -50%;
     left: 37%; /* Center horizontally */
     transform: translate(-50%, -50%);
 }
