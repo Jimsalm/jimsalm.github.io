@@ -525,7 +525,7 @@ header.dark-mode {
     position: absolute;
     width: 170px;
     height: 40px;
-    top: 54%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
